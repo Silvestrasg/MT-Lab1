@@ -18,7 +18,7 @@
 </head>
 <body>
 
-  <h1>My first HLS player</h1>
+  <h1>Vaizdo įrašų grotuvas</h1>
   
   <!--
   location for your player window
@@ -43,8 +43,8 @@
 
   
 	<button type="button" id="Playbutton">Play</button>
-	<button type="button" id="Stopbutton">Pause</button>
-	<button type="button">Stop</button>
+	<button type="button" id="Pausebutton">Pause</button>
+	<button type="button" id="Stopbutton">Stop</button>
 	<button type="button">Jump to 5 sec forward</button>
 	<button type="button">Jump to 5 sec backwards</button>	
 	
@@ -56,20 +56,26 @@
 
   <script> 
 var playbutton = document.getElementById("Playbutton");
-var pausebutton = document.getElementById("Stopbutton");
+var pausebutton = document.getElementById("Pausebutton");
+var stopbutton = document.getElementById("Stopbutton");
 
 playbutton.addEventListener("click", PlayF);
-pausebutton.addEventListener("click", StopF);
+pausebutton.addEventListener("click", PauseF);
+stopbutton.addEventListener("click", StopF);
     
-myVideo = document.getElementById("vid1");
+VideIrasas = document.getElementById("vid1");
 
     function PlayF() { 
-   myVideo.play();
+   VideIrasas.play();
 }
-      function StopF() { 
-   myVideo.pause();
+    function PauseF() { 
+   VideIrasas.pause();
 }
-     
+    function StopF(){
+   VideIrasas.pause();
+   VideIrasas.currentTime = 0;
+   VideIrasas.play();   
+     }
 </script> 
   </body>
 </html>
