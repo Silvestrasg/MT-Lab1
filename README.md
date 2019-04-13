@@ -1,8 +1,8 @@
 # MT-Lab1
 Multimedijos sistemos. Laboratorinis darbas Nr.1 ir Nr.2
 
-* Microsoft Edge 42.17134.1.0 *
-* Google Chrome 73.0.3683.103 *
+* Microsoft Edge 42.17134.1.0 
+* Google Chrome 73.0.3683.103 
 
 
 This lab aims to build your first HTML5 live stream (HLS) player.
