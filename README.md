@@ -1,6 +1,7 @@
 # MT-Lab1
 Multimedijos sistemos. Laboratorinis darbas Nr.1 ir Nr.2
 
+  IŠBANDYTA SU:
 * Microsoft Edge 42.17134.1.0 
 * Google Chrome 73.0.3683.103 
 
