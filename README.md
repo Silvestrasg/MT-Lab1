@@ -1,9 +1,20 @@
 # MT-Lab1
 Multimedijos sistemos. Laboratorinis darbas Nr.1 ir Nr.2
 
-  IÅ BANDYTA SU:
+  IS BANDYTA SU:
 * Microsoft Edge 42.17134.1.0 
 * Google Chrome 73.0.3683.103 
+
+Prideti mygtukai:
+* Play
+* Pause
+* Stop
+* Jump to 3 sec forward
+* Jump to 3 sec backwards
+
+
+
+
 
 
 This lab aims to build your first HTML5 live stream (HLS) player.
